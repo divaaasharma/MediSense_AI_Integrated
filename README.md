@@ -1,4 +1,4 @@
-# 🩺 MediSense AI – Integrated Healthcare Assessment System
+<img width="571" height="498" alt="{787FBD05-53A2-4D3B-9CE7-C5D45767A066}" src="https://github.com/user-attachments/assets/f791161c-4411-4096-8290-4a026375fc1d" /># 🩺 MediSense AI – Integrated Healthcare Assessment System
 
 ## 1. Project Overview
 
@@ -262,3 +262,20 @@ Users should consult qualified medical professionals for personal healthcare dec
 
 **Project:** MediSense AI – Integrated Healthcare Assessment System  
 **Technologies:** Machine Learning | RAG | FAISS | Groq | Streamlit
+
+---
+
+## Model Training Notebook
+
+The complete diabetes model training and evaluation implementation is available in the following Jupyter Notebook:
+
+[01_Diabetes_Risk_Predictionn.ipynb](notebooks/01_Diabetes_Risk_Predictionn.ipynb)
+
+The notebook covers:
+
+- Data preprocessing and cleaning
+- Feature scaling
+- Logistic Regression training
+- Random Forest training
+- Model evaluation
+- Saving trained models using Joblib
