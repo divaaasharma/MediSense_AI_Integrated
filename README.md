@@ -44,6 +44,12 @@ The application is developed using Python and Streamlit.
 | Large Language Model | Groq API |
 | PDF Processing | PyPDF |
 | Environment Management | Python Virtual Environment |
+| External API | Groq API |
+| LLM Model | openai/gpt-oss-120b |
+| Pretrained Embedding Model | sentence-transformers/all-MiniLM-L6-v2 |
+| PDF Library | PyPDF |
+| Environment Configuration | python-dotenv |
+| Vector Search Library | faiss-cpu |
 
 ## 4. Project Architecture
 
