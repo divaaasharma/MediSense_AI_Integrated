@@ -120,6 +120,22 @@ The Medical Q&A Assistant uses five main components:
 5. Answer Generation – Uses Groq to generate answers based on retrieved medical context.
 
 The vector database contains 514 document vectors with 384 embedding dimensions.
+### RAG Indexing Implementation
+
+The document indexing pipeline is implemented using the following modules:
+
+| Component | Source File |
+|---|---|
+| PDF Text Extraction | `src/document_processor.py` |
+| Text Chunking | `src/text_chunker.py` |
+| Embedding and Vector Indexing | `src/vector_store.py` |
+| Similarity-Based Retrieval | `src/retriever.py` |
+| Answer Generation | `src/llm_generator.py` |
+| RAG Integration | `src/rag_engine.py` |
+
+The indexing pipeline processes medical PDF documents, converts text chunks into embeddings, and stores the resulting vectors in a FAISS index.
+
+The generated vector database is stored in `data/vector_store/`.
 
 ## 8. Project Structure
 
