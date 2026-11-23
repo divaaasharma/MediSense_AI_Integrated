@@ -1,4 +1,4 @@
-<img width="571" height="498" alt="{787FBD05-53A2-4D3B-9CE7-C5D45767A066}" src="https://github.com/user-attachments/assets/f791161c-4411-4096-8290-4a026375fc1d" /># 🩺 MediSense AI – Integrated Healthcare Assessment System
+# 🩺 MediSense AI – Integrated Healthcare Assessment System
 
 ## 1. Project Overview
 
