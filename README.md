@@ -266,7 +266,7 @@ The project includes screenshots demonstrating:
 - Generated Medical Answers
 - Retrieved Medical Document Sources
 
-Refer to the `docs` folder for the screenshot documentation.
+Refer to `data/MediSense_AI_Project_Screenshots.docx` for the application screenshots and documentation.
 
 ## 11. Limitations
 
