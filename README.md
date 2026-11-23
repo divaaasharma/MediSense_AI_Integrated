@@ -136,7 +136,26 @@ The document indexing pipeline is implemented using the following modules:
 The indexing pipeline processes medical PDF documents, converts text chunks into embeddings, and stores the resulting vectors in a FAISS index.
 
 The generated vector database is stored in `data/vector_store/`.
+### Rebuilding the RAG Vector Database
 
+To regenerate the FAISS vector database, ensure that the medical documents have been processed and the document chunks are available.
+
+Run the following command from the project root:
+
+```bash
+python -m src.vector_store
+This process:
+
+1. Loads the processed document chunks from `data/document_chunks.json`.
+2. Generates embeddings using Sentence Transformers.
+3. Creates a FAISS similarity index.
+4. Saves the vector index as `medical_index.faiss`.
+5. Saves document metadata as `metadata.json`.
+
+**Embedding Model:** `sentence-transformers/all-MiniLM-L6-v2`
+
+**Vector Index:** FAISS using normalized embeddings and inner-product similarity.
+'''
 ## 8. Project Structure
 
 ```text
